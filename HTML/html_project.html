@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Submission</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form>
+    <label for = "First Name">First Name: </label>
+    <input name = "first" id = "First Name" type = "text" placeholder = "First Name" required>
+    <label for = "Last Name">Username: </label>
+    <input name = "last" id = "Last Name" type = "text" placeholder = "Last Name" required>
+    <div>
+     <label for = "male">Male:</label>
+     <input name = "gender" id = "male"  type="radio" value = "MALE">
+     <label for = "female">Female:</label>
+     <input name = "gender" id = "female"  type="radio" value = "FEMALE">
+     <label for = "other">Other:</label>
+     <input name = "gender" id = "other"  type="radio" value = "OTHER">
+    </div>
+
+    <div>
+    <label for = "email">Email: </label>
+    <input name = "email" id = "email" type = "email" placeholder = "abc@xyz.com" required>
+    <!-- <label for = "password">Password: </label>
+    <input name = "password" id = "password" type = "password"  required > -->
+    <label>
+        Password:
+        <input name = "password" type = "password" pattern =" .{8,}" required title ="Min 8 Characters">
+    </label>
+
+    </div>
+
+    <div>
+        <label> Birthday:
+        <select name = Month >
+            <option selected="selected">Month</option>
+            <option> Jan</option>
+            <option> Feb</option>
+            <option>March</option>
+        </select>
+        <select name = Day >
+            <option selected="selected">Day</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+        </select>
+        <select name = Year >
+            <option selected="selected">Year</option>
+            <option>2000</option>
+            <option>2001 </option>
+            <option>2002</option>
+        </select>
+        </label>
+    </div>
+    <div>
+     <label for = "terms">I agree to the terms and conditions</label>
+     <input name = "terms" id = "terms"  type="checkbox" value = "TERMS">
+
+    </div>
+
+
+    <button>Enter</button>
+
+    </form>
+
+</body>
+</html>
