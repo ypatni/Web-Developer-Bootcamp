@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Image Gallery </title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="gallery.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><i class="far fa-image"></i>  Images</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+    <div class = "container">
+        <div class = "jumbotron">
+            <h1><i class="fas fa-camera-retro"></i> Image Gallery </h1>
+            <p>These are not mine  </p>
+        </div>
+
+        <div class = "row">
+            <div class = "col-lg-4 col-sm-6">
+                <div class = thumbnail>
+                    <img src="http://i.imgur.com/qK42fUu.jpg">
+                </div>
+            </div>
+            <div class = "col-lg-4 col-sm-6">
+                <div class = thumbnail>
+                    <img src="https://images.unsplash.com/photo-1435771112039-1e5b2bcad966?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+                </div>
+            </div>
+            <div class = "col-lg-4 col-sm-6">
+                <div class = thumbnail>
+                    <img src="https://images.unsplash.com/photo-1442406964439-e46ab8eff7c4?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+                </div>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-lg-4 col-sm-6">
+                <div class = thumbnail>
+                    <img src="http://i.imgur.com/qK42fUu.jpg">
+                </div>
+            </div>
+            <div class = "col-lg-4 col-sm-6">
+                <div class = thumbnail>
+                    <img src="http://i.imgur.com/qK42fUu.jpg">
+                </div>
+            </div>
+            <div class = "col-lg-4 col-sm-6">
+                <div class = thumbnail>
+                    <img src="http://i.imgur.com/qK42fUu.jpg">
+                </div>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-lg-4 col-sm-6">
+                <div class = thumbnail>
+                    <img src="http://i.imgur.com/qK42fUu.jpg">
+                </div>
+            </div>
+            <div class = "col-lg-4 col-sm-6">
+                <div class = thumbnail>
+                    <img src="http://i.imgur.com/qK42fUu.jpg">
+                </div>
+            </div>
+            <div class = "col-lg-4 col-sm-6">
+                <div class = thumbnail>
+                    <img src="http://i.imgur.com/qK42fUu.jpg">
+                </div>
+            </div>
+            </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js" ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
+<nav class="nav">
+  <button type="button" id="js-nav__menu-toggle" class="nav__menu-toggle" aria-label="Menu">
+    <div class="nav__menu-toggle-bars"></div>
+  </button>
+
+  <div class="nav__container container">
+    <a href="https://www.ridgelineapps.com" class="nav__logo">
+      <img src="https://www.ridgelineapps.com/wp-content/uploads/2019/03/logo.svg" alt="Ridgeline" width="183" height="34">    </a>
+    <ul class="nav__menu">
+      <li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-9 current_page_item menu-item-12"><a href="https://www.ridgelineapps.com/" aria-current="page">Home</a></li>
+<li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="https://www.ridgelineapps.com/company/">Company</a></li>
+<li id="menu-item-55" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55"><a href="https://www.ridgelineapps.com/careers/">Careers</a></li>
+<li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59"><a href="https://www.ridgelineapps.com/contact/">Contact</a></li>
+    </ul>
+  </div>
+</nav>
