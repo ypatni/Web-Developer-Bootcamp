@@ -1,0 +1,55 @@
+body {
+    background-color: rgba(124, 124, 124, 0.377) !important;
+
+}
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: black;
+}
+
+#mainNavbar .nav-link:hover {
+    color: gold;
+}
+
+#mainNavbar .navbar-brand {
+    color: gold;
+    font-size: 1.5rem;
+}
+.navbar.scrolled {
+    background: rgb(95, 91, 91);
+    transition: background 500ms;
+}
+
+.jumbotron {
+    background: #003973  !important;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E5E5BE, #003973)  !important;  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E5E5BE, #003973)  !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: black;
+
+
+  }
+  .container {
+    margin-top: 13%;
+    text-align: center; 
+    width: 940px;
+  }
+  .content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+  #img-fluid {
+      margin-top: 20%;
+  }
+
+  a{
+      color: black;
+  }
